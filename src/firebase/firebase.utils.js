@@ -14,6 +14,7 @@ const config = {
   measurementId: "G-VY7H7N7QKX",
 };
 
+//see firebase docs
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
 
